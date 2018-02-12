@@ -8,5 +8,9 @@ import { Component, Inject } from '@angular/core';
     ]
 })
 export class LoginComponent {
+
+    login: () => {
+        
+    }
 }
 

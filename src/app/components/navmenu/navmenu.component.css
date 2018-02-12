@@ -33,3 +33,7 @@ nav.nav.nav-masthead {
 a.nav-link {
   font-size: 16px;
 }
+
+.masthead-brand a:hover{
+  text-decoration: none;
+}
