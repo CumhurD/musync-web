@@ -1,0 +1,11 @@
+<h1>Connected Accounts</h1>
+
+<div class="">
+    <a class="login-button" role="button" (click)="connectSpotify();" *ngIf="!token">
+        <span class="spotify-img" aria-hidden="true"></span> 
+        Login with Spotify
+    </a>  
+    <span *ngIf="token" class="login-button">
+        Token: {{token}}
+    </span>
+</div>

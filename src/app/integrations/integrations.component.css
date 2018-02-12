@@ -1,0 +1,12 @@
+a.login-button img{
+    width: 50px;
+}
+
+.spotify-img{
+    background-image: url("/assets/spotify.png");
+    background-repeat: no-repeat;
+    background-size: 50px;
+    height: 50px;
+    padding-left:50px;
+    display: inline-block;
+  }
